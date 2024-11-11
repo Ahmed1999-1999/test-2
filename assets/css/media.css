@@ -1,0 +1,263 @@
+/*
+
+@media screen and (max-width: 576px) {
+
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+
+}
+
+*/
+
+/*  S H A R E D   S T Y L E  */
+/*? mobile-s && mobile-m* && mobile-l */
+@media screen and (max-width: 425px) {
+  html {
+    scroll-padding-top: 3rem !important;
+  }
+
+  section {
+    padding-block: 1.5rem !important;
+  }
+
+  h2 {
+    font-size: 1.75rem !important;
+  }
+
+  p {
+    word-spacing: 0px !important;
+  }
+
+  li {
+    word-spacing: 1px !important;
+  }
+}
+/*? Tablet */
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  html {
+    scroll-padding-top: 4.5rem !important;
+  }
+}
+/*? Laptop */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  html {
+    scroll-padding-top: 63.5px !important;
+  }
+}
+
+/*  S T A R T                  N A V B A R                         S E C T I O N  */
+/*? mobile-s && mobile-m* && mobile-l */
+@media screen and (max-width: 425px) {
+  nav {
+    height: 3rem !important;
+
+    & .navbar-brand {
+      padding-block: 0 !important;
+    }
+
+    & .slogan span {
+      font-size: 0.625rem !important;
+    }
+
+    & .nav-link,
+    .nav-link.active,
+    .nav-link.show {
+      font-size: 0.75rem !important;
+    }
+
+    & .navbar-toggler {
+      padding: 0.25rem !important;
+      margin-inline-end: 1rem !important;
+      font-size: 0.625rem;
+    }
+
+    & .navbar-toggler:focus {
+      box-shadow: none !important;
+    }
+
+    & .show .collapse {
+      padding: 0 !important;
+      margin-bottom: 16px !important;
+    }
+
+    & .control {
+      margin-inline: 0px !important;
+      margin-inline-end: 0px !important;
+    }
+
+    & .show .control div {
+      margin-inline: 0px !important;
+      display: flex !important;
+      flex-direction: row !important;
+      justify-content: space-around !important;
+      align-items: center !important;
+    }
+
+    & .collapse .control a span {
+      font-size: 0.625rem;
+    }
+  }
+}
+/*? Tablet */
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  nav {
+    height: 4.5rem;
+
+    & .navbar-toggler {
+      padding: 0.25rem !important;
+      margin-inline: 1rem;
+      font-size: 0.75rem;
+    }
+
+    & .navbar-toggler:focus {
+      box-shadow: none !important;
+    }
+
+    & .show .collapse {
+      padding: 0 !important;
+      margin-bottom: 16px !important;
+    }
+
+    & .show .control {
+      margin-inline: 0px !important;
+    }
+
+    & .show .control div {
+      margin-inline: 2.5rem !important;
+      padding-inline: 2.5rem !important;
+      display: flex !important;
+      flex-direction: row !important;
+      justify-content: space-around !important;
+      align-items: center !important;
+    }
+  }
+}
+/*? Laptop */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  nav {
+    height: 4.5rem;
+    padding-block: 4 !important;
+
+    & .navbar > .container-xl {
+      align-self: center !important;
+      padding-inline: 8px !important;
+    }
+
+    & .nav-link,
+    .nav-link.active,
+    .nav-link.show {
+      font-size: 0.75rem !important;
+    }
+
+    & .navbar-toggler {
+      padding: 0.25rem !important;
+      margin-inline: 1rem;
+      font-size: 1rem;
+    }
+
+    & .navbar-brand {
+      padding-top: 0 !important;
+    }
+
+    & ul {
+      padding-inline: 20px;
+    }
+
+    & .show .control div {
+      margin-inline: 2.5rem !important;
+      padding-inline: 2.5rem !important;
+      display: flex !important;
+      flex-direction: row !important;
+      justify-content: space-around !important;
+      align-items: center !important;
+    }
+  }
+}
+
+/*   E N D                     N A V B A R                         S E C T I O N  */
+
+/*  S T A R T                  H O M E                             S E C T I O N  */
+
+/*? mobile-s && mobile-m* && mobile-l */
+@media screen and (max-width: 425px) {
+  
+}
+
+/*? Tablet */
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  
+}
+
+/*? Lapto */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  
+}
+
+/*   E N D                     H O M E                             S E C T I O N  */
+
+
+/*  S T A R T                  F O O T E R                         S E C T I O N  */
+@media screen and (max-width: 576px) {
+  #footer {
+    & a {
+      font-size: 1rem !important;
+      margin-bottom: 0.75rem;
+    }
+    & h4 {
+      font-size: 1rem !important;
+      margin-bottom: 0.75rem;
+    }
+    & p {
+      font-size: 0.875rem !important;
+    }
+  }
+
+  #footer .copyright {
+    font-size: 10px;
+    padding-block: 3rem;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  #footer {
+    & a {
+      font-size: 1rem !important;
+      margin-bottom: 0.75rem;
+    }
+    & h4 {
+      font-size: 1rem !important;
+      margin-bottom: 0.75rem;
+    }
+    & p {
+      font-size: 0.875rem !important;
+    }
+  }
+
+  #footer .copyright {
+    font-size: 10px;
+    padding-block: 3rem;
+  }
+}
+
+@media (max-width: 700px) and (orientation: landscape) {
+  #footer {
+    & .container {
+      max-width: fit-content !important;
+      margin-inline: auto !important;
+    }
+  }
+}
+/*   E N D                     F O O T E R                         S E C T I O N  */
